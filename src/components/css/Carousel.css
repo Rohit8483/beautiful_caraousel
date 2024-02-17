@@ -1,0 +1,44 @@
+body {
+  margin: 0px;
+  padding: 0px;
+  font-family: sans-serif;
+}
+.imgcontainer {
+  width: 99%;
+  height: 600px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.imgcontainer img {
+  width: 80%;
+  height: 60%;
+}
+#buttonGroup {
+  gap: 5px;
+  margin: 10px;
+}
+#buttonGroup > button {
+  margin: 5px;
+  font-size: larger;
+  padding: 10px;
+}
+.dots {
+  padding: 10px;
+  display: flex;
+  justify-content: center;
+}
+.dot {
+  height: 20px;
+  width: 20px;
+  border-radius: 50%;
+  background-color: skyblue;
+  margin: 0 5px;
+}
+.dot.active {
+  background-color: green;
+}
+.dot.paused {
+  background-color: red; 
+}
